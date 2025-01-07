@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <>
-      <h1 className="border-4 border-green-500">
+      <h1 className="border-4 border-green-500 sm:text-base md:text-lg">
         Hello world!
       </h1>
       <h2 className="text-vueJs-1312">
