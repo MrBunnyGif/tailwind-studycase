@@ -30,6 +30,15 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    spacing: {
+      1: "2rem",
+      2: "4rem",
+      3: "6rem",
+      4: "8rem",
+      5: "10rem",
+      6: "12rem",
+
+    }
   },
   plugins: [],
 }
