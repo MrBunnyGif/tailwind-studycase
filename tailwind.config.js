@@ -22,6 +22,11 @@ module.exports = {
           1312: "#eee",
           1313: "#333"
         }
+      },
+      fontSize: {
+        xs: "12px",
+        sm: "15px",
+        base: "18px",
       }
     },
     screens: {
@@ -37,7 +42,7 @@ module.exports = {
       4: "8rem",
       5: "10rem",
       6: "12rem",
-    }
+    },
   },
   plugins: [],
 }
