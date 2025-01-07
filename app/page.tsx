@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="border-4 border-green-500">
         Hello world!
       </h1>
-      <h2 className="text-red-500">
+      <h2 className="text-vueJs">
         asd
       </h2>
     </>

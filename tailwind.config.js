@@ -10,7 +10,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    // colors: {
+    //   vueJs: "#28b081"
+    // }
+    //creating "colors overwrite default colors, so the default colors are lost"
+    extend: {
+      //to create a custom color and not overwrite the default we put it in "extend"
+      colors: {
+        vueJs: "#28b081"
+      }
+    },
   },
   plugins: [],
 }
