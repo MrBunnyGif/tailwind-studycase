@@ -10,3 +10,20 @@
 /* styles for more complex UI components */
 @tailwind utilities;
 /* low-level utility classes for styling individual elements */
+
+@layer base {
+
+  /* 
+    The `@layer base` directive tells Tailwind to add this code to the base layer,
+    which is the layer that contains the default styles for HTML elements.
+    By setting the background color here, we can ensure that the background color
+    is applied to all elements in the application, even if they don't have a
+    specific background color set.
+  */
+  html {
+    /* Set the background color of the HTML element to a dark gray color. */
+    /* The `@apply` directive is a shorthand for applying utility classes to an element. */
+    /* In this case, it's applying the `bg-slate-500` utility class, which sets the background color to a dark gray color. */
+    @apply bg-slate-500 text-white font-bold
+  }
+}
