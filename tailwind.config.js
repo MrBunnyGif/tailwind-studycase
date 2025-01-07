@@ -17,7 +17,11 @@ module.exports = {
     extend: {
       //to create a custom color and not overwrite the default we put it in "extend"
       colors: {
-        vueJs: "#28b081"
+        vueJs: {
+          100: "#28b081",
+          1312: "#eee",
+          1313: "#333"
+        }
       }
     },
   },
