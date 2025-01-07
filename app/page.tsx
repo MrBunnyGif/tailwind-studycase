@@ -11,7 +11,12 @@ export default function Home() {
       <h3 className="text-sm lowercase ">ZXcvb</h3>
       <p className="text-xs capitalize">paragraph here</p>
       <br />
-      <p className="truncate">A lot of words here just to use as an example for truncate and overflow in tailwind</p>
+      <div className="w-6 border">
+        <p className="truncate">A lot of words here just to use as an example for truncate and overflow in tailwind</p>
+        <p className="whitespace-nowrap">A lot of words here just to use as an example for truncate and overflow in tailwind</p>
+        <p className="break-words">A lot of words here just to use as an example for truncate and overflow in tailwind</p>
+        <p className="break-all">A lot of words here just to use as an example for truncate and overflow in tailwind</p>
+      </div>
     </>
   );
 }
