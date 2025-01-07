@@ -4,13 +4,12 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <>
-      <h1 className="border-4 border-green-500 sm:text-base md:text-lg mb-3">
-        Hello world!
-      </h1>
-      {/* using tailwindcss arbitrary values feature to set a background color that is not defined in the tailwindcss palette */}
-      <h2 className="text-vueJs-1313 bg-[#bada55]">
-        asd
-      </h2>
+      <h1 className="text-4xl">qwerty</h1>
+      <h1 className="text-2xl">qwerty</h1>
+      <h1 className="text-xl">qwerty</h1>
+      <h2 className="text-base">asdf</h2>
+      <h3 className="text-sm">zxcvb</h3>
+      <p className="text-xs">paragraph here</p>
     </>
   );
 }
