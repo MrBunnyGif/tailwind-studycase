@@ -27,6 +27,9 @@ module.exports = {
         xs: "12px",
         sm: "15px",
         base: "18px",
+      },
+      margin: {
+        4: "4rem"
       }
     },
     screens: {
