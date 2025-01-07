@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&display=swap');
+
 /* 
   These three lines of code import the base, component, and utility styles from Tailwind CSS.
   The base styles are the default styles for HTML elements, the component styles are for more complex UI components,
@@ -24,6 +26,10 @@
     /* Set the background color of the HTML element to a dark gray color. */
     /* The `@apply` directive is a shorthand for applying utility classes to an element. */
     /* In this case, it's applying the `bg-slate-500` utility class, which sets the background color to a dark gray color. */
-    @apply bg-slate-500 text-white font-bold
+    @apply bg-slate-500 text-white font-bold;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
   }
+
 }
