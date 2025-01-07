@@ -37,7 +37,6 @@ module.exports = {
       4: "8rem",
       5: "10rem",
       6: "12rem",
-
     }
   },
   plugins: [],
