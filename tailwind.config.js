@@ -10,6 +10,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true
+    },
     // colors: {
     //   vueJs: "#28b081"
     // }
