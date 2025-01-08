@@ -3,18 +3,12 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="Parent">
-      <div>Header</div>
-
-      <div className="flex flex-row-reverse">
-        <div>
-          Main content
-        </div>
-        <div className="flex flex-col">
-          <div>Sidebar</div>
-          <div>menu</div>
-        </div>
-      </div>
+    <div className="grid grid-cols-4 border gap-1">
+      <div className="border">div 1</div>
+      <div className="border col-span-3">div 2</div>
+      <div className="border col-span-2">div 3</div>
+      <div className="border col-span-3">div 4</div>
+      <div className="border">div 5</div>
     </div>
   );
 }
