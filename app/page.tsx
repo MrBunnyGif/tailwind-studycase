@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="container columns-4" >
+    <div className="container columns-md" >
       {/* The "container" class in Tailwind CSS centers the content and applies responsive padding according to the screen size */}
       <p>http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ </p>
       <p>paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod</p>
