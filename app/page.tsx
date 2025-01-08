@@ -3,9 +3,11 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="container bg-red-500" >
+    <div className="container columns-4" >
       {/* The "container" class in Tailwind CSS centers the content and applies responsive padding according to the screen size */}
-      <h1>Hello</h1>
+      <p>http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ </p>
+      <p>paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod</p>
+      <p> om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840</p>
     </div >
   );
 }
