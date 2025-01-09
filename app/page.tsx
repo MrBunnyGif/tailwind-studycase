@@ -3,11 +3,9 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="container space-y-2" >
-      {/* The "container" class in Tailwind CSS centers the content and applies responsive padding according to the screen size */}
-      <p>http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ http://localhost:3000/ </p>
-      <p>paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod paksdiplpkojasod</p>
-      <p> om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840 om009080830840</p>
+    <div className="container space-y-1" >
+      <div className="bg-slate-600 aspect-video"></div>
+      <div className="bg-red-400 aspect-square"></div>
     </div >
   );
 }
