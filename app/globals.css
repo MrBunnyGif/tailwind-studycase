@@ -23,4 +23,7 @@
   h2{
     @apply text-xl font-semibold mb-1
   }
+  a{
+    @apply underline text-blue-600 hover:text-purple-500 transition;
+  }
 }
