@@ -14,7 +14,10 @@ export default function Home() {
           Learn more about Next.js
         </a>
       </p>
-      <button className={styles.button}>Click me</button> <br />
+      <div className="mb-2 mt-2">
+        <button className={"btn btn-primary"}>Click me</button> <br />
+        <button className="btn btn-secondary">Click em</button>
+      </div>
       <input type="text" className={styles.input} placeholder="Type something" /><br />
       <input type="checkbox" className={styles.input} /><br />
       <select className={styles.input}>
