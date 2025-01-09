@@ -10,45 +10,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    container: {
-      center: true
-    },
-    // colors: {
-    //   vueJs: "#28b081"
-    // }
-    //creating "colors overwrite default colors, so the default colors are lost"
-    extend: {
-      //to create a custom color and not overwrite the default we put it in "extend"
-      colors: {
-        vueJs: {
-          100: "#28b081",
-          1312: "#eee",
-          1313: "#333"
-        }
-      },
-      fontSize: {
-        xs: "12px",
-        sm: "15px",
-        base: "18px",
-      },
-      margin: {
-        4: "4rem"
-      }
-    },
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
-    },
-    spacing: {
-      1: "2rem",
-      2: "4rem",
-      3: "6rem",
-      4: "8rem",
-      5: "10rem",
-      6: "12rem",
-    },
+    extend: {},
   },
   plugins: [],
 }

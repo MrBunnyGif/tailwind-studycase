@@ -3,16 +3,25 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className="container space-y-1 skew-x-12 border" >
-      <p className="text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet nulla auctor, vestibulum magna sed, convallis ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget velit adipiscing euismod. Sed vitae justo in nunc convallis porta. Nulla facilisi.
-        <br />
-        <br />
-        In vel lectus ac justo ultrices varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget velit adipiscing euismod. Sed vitae justo in nunc convallis porta. Nulla facilisi.
-        <br />
-        <br />
-        Nullam quis risus eget velit adipiscing euismod. Sed vitae justo in nunc convallis porta. Nulla facilisi. In vel lectus ac justo ultrices varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    <div className=" container border">
+
+      <h1 className="">Welcome to my page</h1>
+      <h2 className={""}>
+        Get started by editing <code>app/page.tsx</code>
+      </h2>
+      <p className="text-base">
+        <a href="https://nextjs.org/docs" className={styles.link}>
+          Learn more about Next.js
+        </a>
       </p>
-    </div >
+      <button className={styles.button}>Click me</button> <br />
+      <input type="text" className={styles.input} placeholder="Type something" /><br />
+      <input type="checkbox" className={styles.input} /><br />
+      <select className={styles.input}>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </div>
   );
 }
