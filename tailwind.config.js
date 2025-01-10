@@ -13,4 +13,8 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  // This setting allows us to use Tailwind's built-in dark mode by adding the
+  // "dark" class to the root element of our app. This is the simplest way to
+  // implement dark mode in a Next.js app.
+  darkMode: "selector"
 }
